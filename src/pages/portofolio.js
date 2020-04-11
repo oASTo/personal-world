@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const BlogPage = ({ data }) => (
+const PortofolioPage = ({ data }) => (
   <div>
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
@@ -40,4 +40,4 @@ const BlogPage = ({ data }) => (
 //   }
 // `
 
-export default BlogPage
+export default PortofolioPage

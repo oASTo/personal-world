@@ -1,21 +1,24 @@
-import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import React from 'react'
 
 const ServicesPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <div>
+    <h1>Our Services</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+      adipisci, voluptatum, nisi velit praesentium error quia explicabo voluptas
+      ad recusandae enim. Recusandae sequi non vel voluptas. Labore omnis
+      provident ex, perferendis esse, voluptate atque alias officiis dolor
+      eligendi itaque qui?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+      adipisci, voluptatum, nisi velit praesentium error quia explicabo voluptas
+      ad recusandae enim. Recusandae sequi non vel voluptas. Labore omnis
+      provident ex, perferendis esse, voluptate atque alias officiis dolor
+      eligendi itaque qui?
+    </p>
+  </div>
 )
 
 export default ServicesPage
